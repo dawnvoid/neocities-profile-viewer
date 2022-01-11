@@ -1,0 +1,1 @@
+javascript: (() => {let url = window.location.href;if (url.includes(".neocities.org")){window.open("https://neocities.org/site/"+url.substring(8, url.indexOf(".neocities.org")),"_blank");}else{window.alert("This isn't a neocities site!");}})();
